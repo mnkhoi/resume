@@ -25,8 +25,9 @@
 	%a4paper, % Uncomment for A4 paper size (default is US letter)
 	11pt, % Default font size, can use 10pt, 11pt or 12pt
 ]{resume} % Use the resume class
+\usepackage{fontspec}
+\setmainfont{EB Garamond}
 
-\usepackage{ebgaramond} % Use the EB Garamond font
 
 %------------------------------------------------
 
@@ -35,9 +36,9 @@
 % You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
 % Any new lines (\\) you use in the \address commands will be converted to symbols, so each address will appear as a single line.
 
-\address{\href{tel:4372257746}{(437)~$\cdot$~225~$\cdot$~7746} \\ \href{mailto:mnkhoi.nguyen@mail.utoronto.ca}{mnkhoi.nguyen@mail.utoronto.ca} \\ \href{https://linkedin.com/in/mnkhoi}{linkedin.com/in/mnkhoi} \\ \href{https://github.com/mnkhoi}{github.com/mnkhoi} \\ \href{https://mnkhoi.com}{mnkhoi.com}} % Contact information
+\address{\href{tel:4372257746}{(437)~$\cdot$~225~$\cdot$~7746} \\ \href{mailto:bob.k.nguyen@gmail.com}{bob.k.nguyen@gmail.com} \\ \href{https://linkedin.com/in/mnkhoi}{linkedin.com/in/mnkhoi} \\ \href{https://github.com/mnkhoi}{github.com/mnkhoi} \\ \href{https://mnkhoi.com}{mnkhoi.com}} % Contact information
 
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------------
 
 \begin{document}
 
@@ -49,11 +50,11 @@
 	
 	\textbf{University of Toronto} \hfill \textit{September 2021 - April 2026} \\ 
 	B.Sc. in Computer Science \& Mathematics \\
-	Overall GPA: 3.70/4.00 GPA
+	% Overall GPA: 3.70/4.00 GPA
 	
 	\begin{itemize}
 		% Introduction to Theory of Computation
-		\item \textbf{Relevant Courses}: Software Design, Probability and Statistics I, Introduction to Information Security, Software Tools and Systems Programming, Data Structures and Analysis, Operating Systems, Parallel Programming
+		\item \textbf{Relevant Courses}: Software Design, Probability and Statistics I, Introduction to Information Security, Software Tools and Systems Programming, Data Structures and Analysis, Operating Systems, Parallel Programming, Embedded Software, Intro to Software Engineering
 	\end{itemize}
 \end{rSection}
 %----------------------------------------------------------------------------------------
@@ -63,11 +64,17 @@
 \begin{rSection}{Skills}
 
 	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
-		Computer Languages & Java, Python, C/C++, HTML/CSS, Javascript/Typescript, SQL, Shell, Bash \\
-		% Computer Languages & Java, Python, Javascript, C/C++, SQL, Shell, Bash, Perl, Golang, PHP \\
-		Frameworks and Technologies & Node.js, React.js/Next.js, MySQL, Firebase, Linux/Unix, Git, Flask \\
-		% Frameworks and Technologies & MySQL, AWS, Linux/Unix, Git, CPU Architecture \\
-		Tools & Vim, gcc, gdb, valgrind, git, github\\
+		% Backend: Golang, Java, Ruby, SQL, C/C++, Javascript/TypeScript, Python, Shell, Bash
+		Computer Languages & Golang, Ruby, Java, SQL, C/C++, Javascript/TypeScript, Python, Shell, Bash \\
+		% Frontend: Typescript/Javascript, PHP, HTML/CSS
+		% Computer Languages & \\
+
+		% Backend: Express.js, Node.js, Go Chi, MySQL, PostgreSQL, Linux/Unix, Flask, FastAPI, CPU Architecture, CUDA
+		Frameworks and Technologies & Go-Chi, Express.js, Node.js, MySQL, PostgreSQL, Linux/Unix, CUDA \\
+		% Frontend: React.js/Next.js, Svelte.js/SvelteKit, Tailwind CSS, 
+		% Frameworks and Technologies & React.js, Next.js, Svelte.js, SvelteKit, Tailwind CSS, MUI, shadcn-ui \\
+
+		Tools & Vim/Neovim \ensuremath\heartsuit, tmux, gcc, gdb, valgrind, git, github, perforce\\
 		Professional Skills & Adaptability, Problem-solving, Team Player, Accountable, Reliable, Self-starter \\
 		Languages & English, Vietnamese
 	\end{tabular}
@@ -94,7 +101,15 @@
 
 \begin{rSection}{Work Experience}
 
-	\begin{rSubsection}{Software Developer}{July 2023 - Present}{XtayPro Canada}{Toronto, ON}
+	\begin{rSubsection}{Hardware Verification Intern}{May 2024 - Present}{Advanced Micro Devices (AMD)}{Markham, ON}
+	\item Improved on LSF statistical dashboard using \textbf{Go}, \textbf{Svelte/Sveltekit}, and \textbf{Ruby} for managing jobs running on IBM Spectrum LSF.
+	\item Designed and implemented the 'Matrix' automation framework in \textbf{Go}, and \textbf{MySQL} to speed up work and allow for running tests through chat or email.
+	\item Assisted in running and managing regression
+	\end{rSubsection}
+
+%------------------------------------------------
+
+	\begin{rSubsection}{Software Developer}{July 2023 - June 2024}{XtayPro Canada}{Toronto, ON}
 		\item Designed and programmed the front-end of the XTayPro Canada website using \textbf{Next.js} and \textbf{Tailwind CSS}.
 		\item Assisted in setting up XTayPro's Github, Trello, and hosting on Digital Ocean and technological team in Canada.
 		\item Researched and advised on improvements for the company's website.
@@ -120,15 +135,15 @@
 %	EXTRACURRICULARS & VOLUNTEER ACTIVITIES SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Extracurriculars \& Volunteer Activities}
-
-	\begin{rSubsection}{Tech Associate}{September 2022 - Current}{Mathematical, Computer Science, and Statistics Academic Society}{University of Toronto Mississauga, ON}
-		\item Diagnosed and debugged existing club website that uses \textbf{Next.JS} improving use experience.
-		\item Built script to automate email to users using \textbf{Mailchimp} and \textbf{Python}
-		\item Organized DeerHacks hackathon (\href{https://deerhacks.ca}{deerhacks.ca}) with 300+ participants, and 50+ entries.
-	\end{rSubsection}
-
-\end{rSection}
+% \begin{rSection}{Extracurriculars \& Volunteer Activities}
+%
+% 	\begin{rSubsection}{Tech Associate}{September 2022 - Current}{Mathematical, Computer Science, and Statistics Academic Society}{University of Toronto Mississauga, ON}
+% 		\item Diagnosed and debugged existing club website that uses \textbf{Next.JS} improving use experience.
+% 		\item Built script to automate email to users using \textbf{Mailchimp} and \textbf{Python}
+% 		\item Organized DeerHacks hackathon (\href{https://deerhacks.ca}{deerhacks.ca}) with 300+ participants, and 50+ entries.
+% 	\end{rSubsection}
+%
+% \end{rSection}
 
 %----------------------------------------------------------------------------------------
 
