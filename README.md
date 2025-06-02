@@ -1,4 +1,3 @@
 # Resume
 
-LMAO here is my [resume](./resume.pdf) 
-
+LMAO here is my [resume](./resume.pdf)
