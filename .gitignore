@@ -1,5 +1,7 @@
 # Compiler files
 
+*.fls
+*.fdb_latexmk
 *.log
 *.aux
 *.out
