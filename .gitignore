@@ -1,5 +1,7 @@
 # Compiler files
 
+resume-note.txt
+
 *.fls
 *.fdb_latexmk
 *.log
