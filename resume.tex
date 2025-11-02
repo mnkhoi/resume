@@ -47,10 +47,11 @@
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Education}
-	\textbf{University of Toronto} \hfill \textit{September 2021 - April 2026} \\ 
+	% \textbf{University of Toronto} \hfill \textit{September 2021 - December 2026} \\ 
+	\textbf{University of Toronto} \hfill \textit{September 2021 - May 2026} \\ 
 	Honours B.Sc. in Computer Science \& Mathematics \\
 	GPA: 3.58/4.00 \\[1pt]
-	\textit{Relevant Courses}: Software Design, Data Structures and Algorithms, Operating Systems, Parallel Programming, Database System and Technologies, Scalable Computing, Computer Architecture
+	\textit{Relevant Courses}: Software Design, Data Structures and Algorithms, Operating Systems, Parallel Programming, Database System and Technologies, Scalable Computing, Computer Architecture, Computational Linguistics, Compilers 
 	% Introduction to Theory of Computation, Probability and Statistics I, Intro to Software Engineering, Embedded Software, Data Structures and Analysis, Software Tools and Systems Programming, Introduction to Information Security
 \end{rSection}
 
@@ -62,7 +63,8 @@
 	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
 		% Backend: Golang, Java, Ruby, SQL, C/C++, Javascript/TypeScript, Python, Shell, Bash
 		% Computer Languages & Java, Python, Go, C, C++, Ruby, SQL, Javascript/TypeScript, Shell, Bash \\
-		Computer Languages & Javascript/Typescript, CSS, C++, HTML, Python, Java Go, Ruby, SQL, Shell, Bash \\
+		% Computer Languages & Javascript/Typescript, CSS, C++, HTML, Python, Java, Go, Ruby, SQL, Shell, Bash \\
+		Computer Languages & C, C++, Python, Java, Go, Ruby, Perl, SQL, Shell, Bash, Javascript/Typescript \\
 		% Frontend: Typescript/Javascript, PHP, HTML/CSS
 		% Computer Languages & \\
 
@@ -70,7 +72,7 @@
 		% Frameworks and Technologies & Springboot, Express.js/Node.js, FastAPI, React, Flask,  MySQL, PostgreSQL, SQLite, \\ 
 		% 														& Docker, CUDA, Redis, AWS(S3, IoT Core, EC2, RDS, MSK), Linux/Unix\\
 
-		Frameworks and Technologies & React.js, Svelte.js, Tailwind CSS, FastAPI, Flask, Springboot, 
+		Frameworks and Technologies & React.js, Svelte.js, Tailwind CSS, FastAPI, Flask, Springboot, Pytorch, MBED RTOS,
                              \\ & Express.js/Node.js, MySQL, PostgreSQL, SQLite, \\ 
 																& Docker, CUDA, Redis, AWS(S3, IoT Core, EC2, RDS, MSK), Linux/Unix\\
 
@@ -94,16 +96,18 @@
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Work Experience}
-	\begin{rSubsection}{AMD (Advanced Micro Devices)}{May 2024 - August 2025}{Hardware Verification Infrastructure Intern}{Markham, ON}
+	% \begin{rSubsection}{AMD (Advanced Micro Devices)}{May 2024 - August 2025}{Hardware Verification Infrastructure Intern}{Markham, ON}
+	\begin{rSubsection}{AMD (Advanced Micro Devices)}{May 2024 - August 2025}{Design Verification Engineering Intern}{Markham, ON}
 	\item Improved 300\% performance on LSF Monitor alerting and dashboard using \textbf{Go}, \textbf{Redis}, \textbf{Svelte/Sveltekit}, and \textbf{Ruby} for managing jobs running on IBM LSF used by 200+ team members.
 	\item Designed, implemented, and published an internal paper for the 'Matrix' event driven architecture ``AI" automation framework in \textbf{Go}, \textbf{RabbitMQ} and \textbf{SQLite} to automate communication and debug for 100+ engineers.
 	% \item Proposed and built an MVP of an internal Jira Bug Tracker using \textbf{Python}/\textbf{FastAPI} backend and \textbf{React} frontend for the biggest project in AMD up to date.
-	\item Assisted in running, and improving sanity and regression automated verification test system 27\%, built using \textbf{Ruby}, \textbf{Python}, \textbf{C++}, \textbf{React} and running on \textbf{Jenkins} for AMD's biggest project ever.
+	\item Assisted in running, and improving sanity and regression automated SOC verification test system by 27\%, built using \textbf{Ruby}, \textbf{Python}, \textbf{C++}, \textbf{React} and running on \textbf{Jenkins} for AMD's  biggest project ever.
 	% \item Proposed and built an organization chart and adding roles and permissions for the team's workflows implementing \textbf{OpenID Connect} and leveraging \textbf{LDAP} protocol using \textbf{Go}.
 	\end{rSubsection}
 	\begin{rSubsection}{Nexle Corporation}{June 2022 - August 2022}{Software Developer (Intern)}{Ho Chi Minh City, Vietnam}
 		\item Programmed the front-end of a CMS for an EMEA client using \textbf{React} and \textbf{Redux}
-		\item Designed and built the back-end, and APIs of a fitness app with 1,000+ users using \textbf{Node.js}, and \textbf{MySQL} maximizing efficiency and ease-of-use for front-end developers.
+		% \item Designed and built the back-end, and APIs of a fitness app with 1,000+ users using \textbf{Node.js}, and \textbf{MySQL} maximizing efficiency and ease-of-use for front-end developers.
+		\item Designed and built the back-end, and APIs of a fitness app with 1,000+ users using \textbf{Node.js}, and \textbf{MySQL}
 		\item Debugged 20+ old bugs, and bottlenecks on existing projects on both \textbf{React} front-end and \textbf{Express.js}, \textbf{Java Spring Boot} back-end, tested new code for bugs reducing the chance of application breaking bugs.
 	\end{rSubsection}
 
@@ -139,6 +143,11 @@
 	% 	\item Designed and programmed my personal website using \textbf{Next.js} and \textbf{Tailwind CSS}.
 	% \end{rSubsection}
 
+	\begin{rSubsection}{Guitar Tuner}{August 2025 - August 2025}{}{}
+		\item Idealized and built a guitar tuner with 4 group members from scratch using a STM32 board with MBED RTOS
+		\item Added display logic with FFT for real-time processing of live sound data
+	\end{rSubsection}
+
 
 	\begin{rSubsection}{DynamoHub}{May 2025 - August 2025}{}{}
 		\item Lead a team of 8 students to develop an AI traffic management platform for \textit{\href{https://urbandynamo.com}{UrbanDynamo}}
@@ -154,11 +163,17 @@
 
 % \begin{rSection}{Extracurriculars \& Volunteer Activities}
 %
-% 	\begin{rSubsection}{Tech Associate}{September 2022 - Current}{Mathematical, Computer Science, and Statistics Academic Society}{University of Toronto Mississauga, ON}
-% 		\item Diagnosed and debugged existing club website that uses \textbf{Next.JS} improving use experience.
-% 		\item Built script to automate email to users using \textbf{Mailchimp} and \textbf{Python}
-% 		\item Organized DeerHacks hackathon (\href{https://deerhacks.ca}{deerhacks.ca}) with 300+ participants, and 50+ entries.
-% 	\end{rSubsection}
+% 	% \begin{rSubsection}{Tech Associate}{September 2022 - Current}{Mathematical, Computer Science, and Statistics Academic Society}{University of Toronto Mississauga, ON}
+% 	% 	\item Diagnosed and debugged existing club website that uses \textbf{Next.JS} improving use experience.
+% 	% 	\item Built script to automate email to users using \textbf{Mailchimp} and \textbf{Python}
+% 	% 	\item Organized DeerHacks hackathon (\href{https://deerhacks.ca}{deerhacks.ca}) with 300+ participants, and 50+ entries.
+% 	% \end{rSubsection}
+%
+% 	% \begin{rSubsection}{Mentor}{October 2025 - October 2025}{IEEE }{University of Toronto Mississauga, ON}
+% 	% 	\item Diagnosed and debugged existing club website that uses \textbf{Next.JS} improving use experience.
+% 	% 	\item Built script to automate email to users using \textbf{Mailchimp} and \textbf{Python}
+% 	% 	\item Organized DeerHacks hackathon (\href{https://deerhacks.ca}{deerhacks.ca}) with 300+ participants, and 50+ entries.
+% 	% \end{rSubsection}
 %
 % \end{rSection}
 
