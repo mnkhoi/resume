@@ -38,10 +38,10 @@
 
 % Personal %
 
-% \address{\href{tel:4372257746}{(437)~$\cdot$~225~$\cdot$~7746} \\ \href{mailto:bob.k.nguyen@gmail.com}{bob.k.nguyen@gmail.com} \\ \href{https://linkedin.com/in/mnkhoi}{linkedin.com/in/mnkhoi} \\ \href{https://github.com/mnkhoi}{github.com/mnkhoi} \\ \href{https://mnkhoi.com}{mnkhoi.com}\\ Canadian Citizen} % Contact information
+\address{\href{tel:4372257746}{(437)~$\cdot$~225~$\cdot$~7746} \\ \href{mailto:bob.k.nguyen@gmail.com}{bob.k.nguyen@gmail.com} \\ \href{https://linkedin.com/in/mnkhoi}{linkedin.com/in/mnkhoi} \\ \href{https://github.com/mnkhoi}{github.com/mnkhoi} \\ \href{https://mnkhoi.com}{mnkhoi.com}\\ Canadian Citizen} % Contact information
 
 % Non interactive Personal %
-\address{(437)~$\cdot$~225~$\cdot$~7746 \\ \textit{bob.k.nguyen@gmail.com} \\ linkedin.com/in/mnkhoi \\ github.com/mnkhoi \\ mnkhoi.com\\ Canadian Citizen} % Contact information
+% \address{(437)~$\cdot$~225~$\cdot$~7746 \\ \textit{bob.k.nguyen@gmail.com} \\ linkedin.com/in/mnkhoi \\ github.com/mnkhoi \\ mnkhoi.com\\ Canadian Citizen} % Contact information
 
 % School %
 
@@ -73,7 +73,7 @@
 		% Backend: Golang, Java, Ruby, SQL, C/C++, Javascript/TypeScript, Python, Shell, Bash
 		% Computer Languages & Java, Python, Go, C, C++, Ruby, SQL, Javascript/TypeScript, Shell, Bash \\
 		% Computer Languages & Javascript/Typescript, CSS, C++, HTML, Python, Java, Go, Ruby, SQL, Shell, Bash \\
-		Computer Languages & Java, Python, C, C++, Go, Ruby, Perl, SQL, Shell, Bash, Javascript/Typescript \\
+		Computer Languages & Java, Go, C, C++, Python, Ruby, Perl, SQL, Shell, Bash, Rust, Javascript/Typescript \\
 		% Frontend: Typescript/Javascript, PHP, HTML/CSS
 		% Computer Languages & \\
 
@@ -106,11 +106,15 @@
 
 \begin{rSection}{Work Experience}
 	% \begin{rSubsection}{AMD (Advanced Micro Devices)}{May 2024 - August 2025}{Hardware Verification Infrastructure Intern}{Markham, ON}
-	\begin{rSubsection}{AMD (Advanced Micro Devices)}{May 2024 - August 2025}{Design Verification Engineering Intern}{Markham, ON}
+	\begin{rSubsection}{AMD (Advanced Micro Devices)}{May 2024 - August 2025}{SOC Design Verification Engineering Intern}{Markham, ON}
 	\item Improved 300\% performance on LSF Monitor alerting and dashboard using \textbf{Go}, \textbf{Redis}, \textbf{Svelte/Sveltekit}, and \textbf{Ruby} for managing jobs running on IBM LSF used by 200+ team members.
+	% \item Improved performance on LSF Monitor alerting and dashboard using \textbf{Go}, \textbf{Redis}, \textbf{Svelte/Sveltekit}, and \textbf{Ruby} for managing jobs running on IBM LSF.
 	\item Designed, implemented, and published an internal paper for the 'Matrix' event driven architecture ``AI" automation framework in \textbf{Go}, \textbf{RabbitMQ} and \textbf{SQLite} to automate communication and debug for 100+ engineers.
+	% \item Designed, implemented, and published an internal paper for the 'Matrix' event driven architecture ``AI" automation framework in \textbf{Go}, \textbf{RabbitMQ} and \textbf{SQLite} to automate communication and debug.
 	% \item Proposed and built an MVP of an internal Jira Bug Tracker using \textbf{Python}/\textbf{FastAPI} backend and \textbf{React} frontend for the biggest project in AMD up to date.
-	\item Assisted in running, and improving sanity and regression automated SOC verification test system by 27\%, built using \textbf{Ruby}, \textbf{Python}, \textbf{C++}, \textbf{React} and running on \textbf{Jenkins} for AMD's  biggest project ever.
+	% \item Proposed and built an MVP of an internal Jira Bug Tracker using \textbf{Python}/\textbf{FastAPI} backend and \textbf{React} frontend.
+	\item Assisted in running, and improving sanity and regression automated SOC verification test system by 27\%, built using \textbf{Ruby}, \textbf{Python}, \textbf{C++}, \textbf{React} and running on \textbf{Jenkins} for AMD's biggest project ever.
+	% \item Assisted in running, and improving sanity and regression, built using \textbf{Ruby}, \textbf{Python}, \textbf{C++}, \textbf{React} and runs on \textbf{Jenkins}.
 	% \item Proposed and built an organization chart and adding roles and permissions for the team's workflows implementing \textbf{OpenID Connect} and leveraging \textbf{LDAP} protocol using \textbf{Go}.
 	\end{rSubsection}
 	\begin{rSubsection}{Nexle Corporation}{June 2022 - August 2022}{Software Developer (Intern)}{Ho Chi Minh City, Vietnam}
@@ -164,9 +168,13 @@
 		\item Connected \textbf{Flask}, \textbf{SocketIO}, \textbf{AWS MSK (Kafka)}, and \textbf{PostgreSQL} backend for realtime updates
 	\end{rSubsection}
 
-	\begin{rSubsection}{Guitar Tuner}{August 2025 - August 2025}{}{}
-		\item Idealized and built a guitar tuner with 4 group members from scratch using a STM32 board with MBED RTOS
-		\item Added display logic with FFT for real-time processing of live sound data
+	% \begin{rSubsection}{Guitar Tuner}{August 2025 - August 2025}{}{}
+	% 	\item Idealized and built a guitar tuner with 4 group members from scratch using a STM32 board with MBED RTOS
+	% 	\item Added display logic with FFT for real-time processing of live sound data
+	% \end{rSubsection}
+	\begin{rSubsection}{kedit - shared text editor}{October 2025 - Current}{}{}
+	\item Built my personal text editor with implementation of Rope data structures using \textbf{Rust} with inspiration from \textbf{Vim}.
+	\item Planned to support CRDT terminal editing through sharing a server to both work on a file asynchronously.
 	\end{rSubsection}
 
 \end{rSection}
